@@ -1,3 +1,7 @@
+a27:
+    resource: "@A27Bundle/Controller/"
+    type:     annotation
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation

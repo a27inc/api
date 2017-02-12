@@ -1,0 +1,4 @@
+services:
+#    a27.example:
+#        class: A27Bundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
