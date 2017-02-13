@@ -1,7 +1,9 @@
-a27:
-    resource: "@A27Bundle/Controller/"
-    type:     annotation
-
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+a27:
+    resource: "@A27Bundle/Controller/"
+    type:     annotation
+    prefix:   /test
+
