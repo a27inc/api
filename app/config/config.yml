@@ -44,11 +44,11 @@ twig:
 doctrine:
     dbal:
         driver:   pdo_mysql
-        host:     "%env(database_host)%"
-        port:     "%env(database_port)%"
-        dbname:   "%env(database_name)%"
-        user:     "%env(database_user)%"
-        password: "%env(database_password)%"
+        host:     "localhost"
+        port:     "3306"
+        dbname:   "a27_api"
+        user:     "root"
+        password: "root"
         charset:  utf8mb4
         default_table_options:
             charset: utf8mb4

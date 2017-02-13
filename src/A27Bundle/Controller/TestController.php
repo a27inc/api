@@ -18,9 +18,11 @@ class TestController extends Controller
     {
         /** @var Connection $conn */
         $conn = $this->get('database_connection');
-        //$tests = $conn->fetchAll('SELECT * FROM test');
+        $tests = $conn->fetchAll('SELECT * FROM test');
+
+        die(var_dump($tests));
         return $this->render('A27Bundle:Test:index.html.twig', array(
-            //'tests' => $tests
+            'conn' => $conn
         ));
     }
 
